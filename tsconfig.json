@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es6" /* 生成されるJavaScriptのバージョンを設定し、互換性のあるライブラリ宣言を含める*/,
+        "module": "commonjs" /* 生成されるモジュールコードを指定する */,
+        "typeRoots": ["./node_modules/@types"] /* 依存パッケージ用のtypeフォルダを指定する */,
+        "resolveJsonModule": true /* .jsonがインポートできるようにする */,
+        "outDir": "./dist" /* tscでビルドしたソースの出力先 */,
+        "esModuleInterop": true /* CommonJSモジュールのインポートをサポートする */,
+        "forceConsistentCasingInFileNames": true /* インポート時に大文字小文字が正しいことを確認します。例：macは大小文字区別しないですが、linuxが区別ありなので、設定した方がソースが移植しやすくなる */,
+        "strict": true /* すべての厳格な型チェックオプションを有効にします。 */,
+        "skipLibCheck": true /* .d.tsファイルの型チェックをスキップします。 */
+    }
+}
+
